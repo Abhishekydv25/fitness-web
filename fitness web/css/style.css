@@ -1,0 +1,50 @@
+body{
+    color: whitesmoke;
+    margin: 0%;
+    padding: 0%;
+    background-image: url('img/abs-1850926_1920.jpg');
+}
+.left{
+    display: inline-block;
+    border: 2px solid red;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    border: 2px solid yellow;
+
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    border: 2px solid rgb(46, 202, 46);
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: whitesmoke;
+}
+.left img{
+    width: 150px;
+}
+.left div{
+    text-align: center;
+}
